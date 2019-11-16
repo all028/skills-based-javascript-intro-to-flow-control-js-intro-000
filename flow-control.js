@@ -42,12 +42,15 @@ function ternaryTeenager(age){
   }
 
 }
-/*
+
 function switchAge(age){
   switch (age){
+    case 13:
+    case 19: return "You are a teenager";
+             break;
 
-  }else {
-      return "you are not a teenager"
+    default:
+      return "You are not a teenager"
   }
 }
-*/
+
